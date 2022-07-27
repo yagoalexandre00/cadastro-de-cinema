@@ -4,7 +4,7 @@
     }
 
     if(!empty($id)){
-        $query = "SELECT * FROM cinema  WHERE id = :id";
+        $query = "SELECT * FROM cinemas WHERE id = :id";
 
         $stmt = $conn->prepare($query);
         $stmt->bindParam(":id", $id);
