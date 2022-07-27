@@ -2,7 +2,7 @@
 
 <h1><?= $contact['nome']?></h1>
 
-<table>
+<table class="table table-hover">
     <tr>
         <td>
             <h3>Cidade:</h3>

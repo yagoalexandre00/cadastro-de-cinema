@@ -29,3 +29,7 @@ h1 {
 .tbody {
     text-align: left;
 }
+
+.actions i {
+    color: #212529;
+}

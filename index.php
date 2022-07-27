@@ -25,13 +25,13 @@
                <td scope="row"><?= $contact['cidade']?></td> 
                <td scope="row"><?= $contact['cnpj']?></td>
                <td class="actions">
-                    <a href="<?= $BASE_URL ?>view.php?id=<?= $contact['id']?>"><i class="fas fa-eye check-icon"></i></a>
-                    <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact['id']?>"><i class="fa-solid fa-pen"></i></a>
-                    <a href="<?= $BASE_URL ?>delete.php?id=<?= $contact['id']?>"><i class="fa-solid fa-trash-can"></i></a>
+                    <a style="color: #212529;" href="<?= $BASE_URL ?>view.php?id=<?= $contact['id']?>"><i class="fas fa-eye check-icon"></i></a>
+                    <a style="color: #212529;" href="<?= $BASE_URL ?>edit.php?id=<?= $contact['id']?>"><i class="fa-solid fa-pen"></i></a>
+                    <a style="color: #212529;" href="<?= $BASE_URL ?>delete.php?id=<?= $contact['id']?>"><i class="fa-solid fa-trash-can"></i></a>
                </td> 
             </tr>
             <?php endforeach; ?>
-        </tbody>
+        </tbody> 
     </table>
 </div>
 
