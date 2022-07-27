@@ -1,0 +1,31 @@
+body {
+    background-color: #FFF;
+    color: #212529;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.nav-link {
+    color: #FFF;
+    transition: 0.4s;
+}
+
+.table {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.thead {
+    text-align: left;
+}
+
+.tbody {
+    text-align: left;
+}
